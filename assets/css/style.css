@@ -1,5 +1,7 @@
 
-body {
-    background-color: rgb(43, 226, 73);
-    color: black;
+.head {
+    background: url(../images/be-trees.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+    color: rgb(255, 255, 255);
 }

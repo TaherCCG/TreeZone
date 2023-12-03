@@ -1,3 +1,10 @@
+/*  Import Google fonts Kantumruy Pro weight 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
 
 .head {
     background: url(../images/be-trees.jpg) no-repeat center center;

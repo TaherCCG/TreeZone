@@ -7,10 +7,12 @@ body {
 
 
 .header {
-    background: url(../images/treebg.jpg) no-repeat center center;
-    height: 600px;
-    width: 100%;
-    color: rgb(255, 255, 255);
+     background-image: url("../images/tree2.jpg");
+     background-color: #cccccc; 
+     height: 600px; 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
 }
 
 .navbar {
@@ -24,4 +26,8 @@ body {
 }
 .blockquote p {
     margin: 0;
+}
+
+footer {
+    background-color: rgba(1, 64, 64, .9) ;
 }

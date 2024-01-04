@@ -5,69 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tree Zone | Plant a tree for a better future</title>
+   
     <!-- Bootstrap  5.3.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/0199d382d0.js" crossorigin="anonymous"></script>
     <!-- Main CSS style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Page Header, Logo and Navbar Menu-->
+
+    <!-- Header Section-->
     <section class="header">
+        <!-- /Header -->
         <header>
-            <nav class="navbar bg-gradient navbar-dark navbar-expand-sm container-fluid">
-                <a href="index.html" class="navbar-brand">Tree Zone</a>
-                <ul class="navbar-nav mx-auto">
-                    <li class="active nav-item mx-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#">Events</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#">Gallery</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item mx-2"><a href="#" class="nav-link">Login / Sign Up</a></li>
+            <!-- Navbar -->
+            <nav class="navbar bg-gradient navbar-dark navbar-expand-sm">
+                <a href="index.html" class="navbar-brand" id="logo">
+                    <h2>Tree Zone <span><img src="assets/images/tz-logo.png" alt="Tree Zone Logo" width="50"></span></h2>
+                </a>
+                <ul class="navbar-nav mx-auto" id="menu">
+                    <li class="nav-item mx-2"><a class="nav-link" href="index.html" aria-label="Goto Home Page">Home</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#" aria-label="Goto Events Page">Events</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#" aria-label="Goto Gallery Page">Gallery</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="#" aria-label="Goto About Page">About</a></li>
                 </ul>
-                <!-- <div class="d-none d-md-block">
-                    <p class="navbar-text m-2"><i>Login / Sign Up </i><span><a class="nav-link" href="#">Account</a></span></p>
-                
-                </div> -->
+                <a href="#" class="mx-2"><button class="btn btn-outline-success" aria-label="Goto login or sign up page">Login / Sign Up</button></a>
             </nav>
+            <!-- /Navbar -->
         </header>
-    </section>
+        <!-- /Header -->
 
-
-    <section class="container mt-3">
         <!-- Callout  -->
         <section class="callout">
-            <h1>Tree Zone - Planting trees for the future.</h1>
+            <h3>Tree Zone - Planting trees for the future.</h3>
             <p class="lead"><strong><mark>Do your bit for future generations!</mark></strong></p>
             <button class="btn btn-success">Donate Now!</button>
         </section>
-        <!-- End of callout -->
+        <!-- /Callout -->
+    </section>
+    <!-- /Header Section -->
+
+    <!-- Main Section -->
+    <section class="container-fluid main-container">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center align-items-center h-100 text-center">
+                <div class="col-12" style="margin-top: 20px;">
+                    <h3>Tree Planting Initiatives</h3>
+                </div>
+
+                <!-- Top -->
+                <div class="row " style="background-color: rgba(15, 119, 238, 0.2);">
+                    <div class=" col-md-6 col-sm-12 container-fluid py-4" id="feature1">
+                        <img src="assets/images/tree-img1.jpg" alt="Image of Trees" class="img-fluid"
+                            style="height: 250px;">
+                    </div>
+                    <div class=" col-md-6 col-sm-12 py-5" id="feature1">
+                        <h3 class="text-uppercase">Do your bit!</h3>
+                        <p>Participating in global tree-planting initiatives contributes to international efforts to
+                            combat
+                            deforestation, promote reforestation, and achieve sustainability goals.</p>
+                        <p><a href="#" class="btn btn-sm btn-light">Get Involved</a></p>
+                    </div>
+                </div>
+                <!-- Middle -->
+                <div class="row" style="background-color: rgba(2, 71, 23, 0.2);">
+                    <div class=" col-md-6 col-sm-12 py-5" id="feature1">
+                        <h3 class="text-uppercase">For future Generation!</h3>
+                        <p>Planting trees for the future is a proactive and sustainable way to invest in the well-being
+                            of the
+                            planet and future generations. </p>
+                        <p><a href="#" class="btn btn-sm btn-light">Get Involved</a></p>
+                    </div>
+                    <div class=" col-md-6 col-sm-12 py-4" id="feature1">
+                        <img src="assets/images/tree-img3a.jpg" alt="Image of a man with his child planting a tree" class="img-fluid"
+                            style="height: 250px;">
+                    </div>
+                </div>
+
+                <!-- Bottom -->
+                <div class="row" style="background-color: rgba(200, 120, 0, 0.199);">
+                    <div class=" col-md-6 col-sm-12 container-fluid py-4" id="feature1">
+                        <img src="assets/images/tree-img6.jpg" alt="Image of one tree in a field" class="img-fluid"
+                            style="height: 250px;">
+                    </div>
+                    <div class=" col-md-6 col-sm-12 py-5 " id="feature1">
+                        <h3 class="text-uppercase">One Tree makes an impact</h3>
+                        <p>One tree can sequester (or take in) more than one ton of carbon dioxide in its lifetime.
+                            Planting
+                            trees and preventing deforestation are key measures in reducing the human impact on global
+                            climate
+                            change.</p>
+                        <p><a href="#" class="btn btn-sm btn-light">Get Involved</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <hr>
-        <!-- Highlights -->
-        <section class="highlights">
-            <!-- <h2 class="text-uppercase">Highlights </h2> -->
-            <div class="highlight--1">
-                <h3 class="text-uppercase">Do your bit!</h3>
-                <p>Participating in global tree-planting initiatives contributes to international efforts to combat
-                    deforestation, promote reforestation, and achieve sustainability goals.</p>
-                <p><a href="#" class="btn btn-sm btn-light">Read More</a></p>
-            </div>
-            <div class="highlight--2">
-                <h3 class="text-uppercase">For future Generation!</h3>
-                <p>Planting trees for the future is a proactive and sustainable way to invest in the well-being of the
-                    planet and future generations. </p>
-                <p><a href="#" class="btn btn-sm btn-light">Read More</a></p>
-            </div>
-            <div class="highlight--3">
-                <h3 class="text-uppercase">One Tree makes an impact</h3>
-                <p>One tree can sequester (or take in) more than one ton of carbon dioxide in its lifetime. Planting
-                    trees and preventing deforestation are key measures in reducing the human impact on global climate
-                    change.</p>
-                <p><a href="#" class="btn btn-sm btn-light">Read More</a></p>
-            </div>
-        </section>
-        <!-- End of highlight -->
-        <hr>
+    </section>
+        <!-- </section> -->
+        <!-- /Highlights -->
         <!-- Quotes section -->
         <section class="quotes">
             <h2 class="text-uppercase">Quotes</h2>
@@ -91,17 +130,17 @@
                 <p class="lead"><em>Alex M.</em></p>
             </blockquote>
         </section>
-        <!-- End of Quotes section -->
+        <!-- /Quotes -->
         <hr>
-        <!-- Footer section -->
     </section>
 
+    <!-- Footer -->
     <section class="footer">
         <footer class="text-center text-lg-start text-white">
 
             <div class="col footer">
 
-                <!-- Footer Section -->
+                <!-- Social Links -->
                 <div class="mb-4 text-center social-links" style="background-color: rgba(0, 0, 0, 0.2)">
                     <p>Social Links</p>
 
@@ -140,21 +179,20 @@
                 <div class="container p-4">
                     <!--Grid row-->
                     <div class="row">
-                        <!--Grid column-->
+                        <!-- Contact -->
                         <div class="col-lg-6 mb-4 mb-md-0">
                             <h5 class="text-uppercase">Contact:</h5>
                             <p>Tree Zone Ltd<br>
                                 Colmore Row <br>
-                                Birmingham <br>
-                                B1 <br>
+                                Birmingham, B1 <br>
                                 United Kingdom <br>
                             </p>
                             <p><strong>Tel:</strong><span><em>0121 123 4567</em></span></p>
 
                         </div>
-                        <!--Grid column-->
+                        <!-- /Contact-->
 
-                        <!--Grid column-->
+                        <!-- Sitemap-->
                         <div class="col-lg-6 mb-4 mb-md-0">
                             <h5 class="text-uppercase mb-0">Sitemap:</h5>
 
@@ -176,11 +214,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <!--Grid column-->
+                        <!-- /Sitemap-->
                     </div>
-                    <!--Grid row-->
+                    <!-- /Grid row-->
                 </div>
-                <!-- Grid container -->
+                <!-- /Grid container -->
 
 
                 <!-- Copyright -->
@@ -188,9 +226,13 @@
                     © 2023 Copyright:
                     <a class="text-white" href="index.html">Tree Zone</a>
                 </div>
+                <!-- /Copyright -->
             </div>
         </footer>
     </section>
+    <!-- /Footer -->
+
+
     <!-- Bootstrap 5.3.2 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

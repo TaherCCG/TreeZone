@@ -1,6 +1,14 @@
 /*  Import Google fonts Kantumruy Pro weight 400, 700 */
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap');
 
+html,
+body {
+  height: 100%
+}
+html {
+    font-size: 14px;
+}
+
 body {
     font-family: 'Kantumruy Pro', sans-serif;
     color: whitesmoke;
@@ -43,6 +51,7 @@ body {
     margin: 15px;
     z-index: 2;
 }
+
 .class-divider {
     width: 100%;
     height: 5px;
@@ -50,6 +59,7 @@ body {
     background-color: #08e21a;
     border-radius: 2px;
 }
+
 .class-divider--short {
     width: 25%;
 
@@ -66,7 +76,8 @@ body {
     from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -97,3 +108,15 @@ footer {
     background-color: rgba(1, 64, 64, .9);
 }
 
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }  
+}
+
+@media (max-width: 600px) {
+    iframe {
+        width:380px;
+        height:240px;
+    }
+}

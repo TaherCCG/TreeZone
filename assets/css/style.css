@@ -33,7 +33,9 @@ body {
 }
 
 /* Jumbotron */
-
+.jumbotron {
+    margin: 5 auto;
+}
 .jumbotron-header {
     color: white;
     font-weight: bold;

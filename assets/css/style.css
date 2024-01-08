@@ -29,6 +29,17 @@ body {
     top: 0;
     z-index: 2;
     position: fixed;
+}
+
+.navbar-brand {
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding-left: 15px;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding-bottom: 15px;
 
 }
 

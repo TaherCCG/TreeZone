@@ -130,16 +130,17 @@ article {
 }
 
 .one-tree {
-    background-color: rgba(92, 68, 18, 0.5);
+    background-color: rgba(25, 78, 80, 0.5);
 }
 
 .feature-image {
     height: 250px;
 }
 
-/* .quotes-container {
-    background-color: rgba(0, 0, 0, 0.5);
-} */
+.quotes-container {
+    /* border: 1px solid rgba(0, 0, 0, 0.7); */
+}
+
 .blockquote {
     margin: 20px 0px;
 }
@@ -153,10 +154,22 @@ article {
     border-radius: 50%;
     border-top: 3px solid #16a7d3a9;
     border-bottom: 3px solid #12d41c8c;
+    margin-bottom: -50px;
+}
+.quote-card {
+    margin: 10px 0;
 }
 
+.media-body {
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    min-height: 300px;
+    margin: 15px 0;
+    background-color: rgba(92, 68, 18, 0.5);
+}
 footer {
     background-color: rgba(1, 64, 64, .9);
+    margin:10px 0;
 }
 
 @media (min-width: 768px) {

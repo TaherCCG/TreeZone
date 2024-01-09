@@ -12,8 +12,21 @@ body {
     width: 100%;
     height: 100vh;
     font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 1.3em;
     color: whitesmoke;
     background-color: rgb(1, 64, 64);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 0.875em;
 }
 
 /* Navbar  */
@@ -25,7 +38,7 @@ body {
 }
 
 #logo {
-    
+
     font-family: 'Kantumruy Pro', sans-serif;
     padding-left: 15px;
     font-weight: bold;
@@ -41,6 +54,12 @@ body {
 .active {
     border-top: 1px solid #16a7d3a9;
     border-bottom: 1px solid #12d41c8c;
+    border-radius: 50%;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #12d41c8c;
+    border-top: 1px solid #84eff360;
     border-radius: 50%;
 }
 
@@ -115,16 +134,20 @@ body {
     width: 25%;
 }
 
-.page-header{
+/* Page Header */
+.page-header {
     margin-top: 25px;
 }
 
 article {
     min-height: 300px;
 }
+
+/* Highlight sections */
 .do-your-bit {
-    background-color:rgba(25, 78, 80, 0.5);
+    background-color: rgba(25, 78, 80, 0.5);
 }
+
 .future-gen {
     background-color: rgba(34, 83, 37, 0.5);
 }
@@ -137,10 +160,7 @@ article {
     height: 250px;
 }
 
-.quotes-container {
-    /* border: 1px solid rgba(0, 0, 0, 0.7); */
-}
-
+/* Quotes Section */
 .blockquote {
     margin: 20px 0px;
 }
@@ -148,6 +168,7 @@ article {
 .blockquote p {
     margin: 0;
 }
+
 .profile-image {
     width: 100px;
     height: 100px;
@@ -156,6 +177,7 @@ article {
     border-bottom: 3px solid #12d41c8c;
     margin-bottom: -50px;
 }
+
 .quote-card {
     margin: 10px 0;
 }
@@ -167,26 +189,35 @@ article {
     margin: 15px 0;
     background-color: rgba(92, 68, 18, 0.5);
 }
+
+/* Footer */
 footer {
-    background-color: rgba(1, 64, 64, .9);
-    margin:10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+.social-links {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
+.contact-section,
+.sitemap-section {
+    padding-top: 30px;
+}
+
+.copyright-section {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Media queries  */
 
 @media (max-width: 600px) {
+    body {
+        font-size: 1em;
+    }
+
     iframe {
         width: 380px;
         height: 240px;
     }
-}
-
-.nav-item:hover {
-    border-bottom: 1px solid #12d41c8c;
-    border-top: 1px solid #84eff360;
-    border-radius: 50%;
 }

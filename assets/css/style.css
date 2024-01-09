@@ -133,6 +133,9 @@ p {
 .class-divider--short {
     width: 25%;
 }
+.class-divider--tiny {
+    width: 15%;
+}
 
 /* Page Header */
 .page-header {

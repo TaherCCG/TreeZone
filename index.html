@@ -30,36 +30,44 @@
                     Zone
                 </h1>
             </a>
-            <ul class="navbar-nav mx-auto" id="menu">
-                <li class="nav-item mx-2 active">
-                    <a class="nav-link" href="index.html"
-                        aria-label="Go to Home Page to find out about our Tree initiatives">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="involved.html"
-                        aria-label="Go to Get Involved Page, to get involved in planting trees">
-                        Get Involved
-                    </a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="gallery.html"
-                        aria-label="Go to Gallery Page, to see our gallery photos from our members">
-                        Gallery
-                    </a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="#" aria-label="Go to About Page, to find out more About Tree Zone">
-                        About
-                    </a>
-                </li>
-            </ul>
+            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto align-items-center" id="menu">
+                    <li class="nav-item mx-2 active">
+                        <a class="nav-link" href="index.html"
+                            aria-label="Go to Home Page to find out about our Tree initiatives">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="involved.html"
+                            aria-label="Go to Get Involved Page, to get involved in planting trees">
+                            Get Involved
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="gallery.html"
+                            aria-label="Go to Gallery Page, to see our gallery photos from our members">
+                            Gallery
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" aria-label="Go to About Page, to find out more About Tree Zone">
+                            About
+                        </a>
+                    </li>
+                </ul>
+           
             <a href="#" class="mx-2">
                 <button class="btn btn-outline-success" aria-label="Go to Plant Now, to start planting right away.">
                     Plant Now
                 </button>
             </a>
+        </div>
         </nav>
     </header>
     <!-- Hero Section -->
@@ -328,9 +336,11 @@
                             </label>
                             <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
                                 placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-white">
-                                We'll never share your email with anyone else.
-                            </small>
+                            <p class="text-muted">
+                                <small id="emailHelp" class="form-text text-white">
+                                    We'll never share your email with anyone else.
+                                </small>
+                            </p>
                         </div>
                         <button type="submit" class="btn btn-success mb-2">Submit</button>
                     </form>

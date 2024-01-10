@@ -212,6 +212,19 @@ footer {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+#emailHelp {
+    color:lightslategrey;
+}
+
+/* Modal */
+.modal-header {
+    background-color: rgba(34, 83, 37, 0.5);
+}
+.modal-content {
+    background-color:rgb(1, 64, 64);
+    border: 3px solid black;
+}
+
 /* Media queries  */
 
 @media (max-width: 600px) {

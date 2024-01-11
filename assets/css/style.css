@@ -17,18 +17,6 @@ body {
     background-color: rgb(1, 64, 64);
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
-h2 {
-    font-size: 1.875em;
-}
-
-p {
-    font-size: 0.875em;
-}
-
 /* Navbar  */
 .navbar {
     background-color: rgb(1, 64, 64);
@@ -52,20 +40,20 @@ p {
 }
 
 .active {
-    border-top: 1px solid #16a7d3a9;
-    border-bottom: 1px solid #12d41c8c;
-    border-radius: 50%;
+    border-top: 2px solid #16a7d3a9;
+    border-bottom: 2px solid #12d41c8c;
+    border-radius: 25%;
 }
 
 .nav-item:hover {
     border-bottom: 1px solid #12d41c8c;
     border-top: 1px solid #84eff360;
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 /* Hero Section */
 .hero-section {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("../images/tree-img4.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -100,10 +88,12 @@ p {
 .callout {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
-    border-radius: 50%;
+    border-radius: 30%;
     border-top: 5px solid #16cdd3a9;
     border-bottom: 5px solid #12d41c8c;
 }
+
+
 
 /* Jumbotron keyframes animation */
 @keyframes jumbotron-zoom {
@@ -142,9 +132,6 @@ p {
     margin-top: 25px;
 }
 
-article {
-    min-height: 300px;
-}
 
 /* Highlight sections */
 .do-your-bit {
@@ -217,12 +204,58 @@ footer {
 }
 
 /* Modal */
+.modal-dialog {  
+    background-color: rgba(10, 37, 18,1);
+    padding: 15px;
+    border-radius: 10%;
+    border-top: 5px solid #16cdd3a9;
+    border-bottom: 5px solid #12d41c8c;
+}
 .modal-header {
-    background-color: rgba(34, 83, 37, 0.5);
+    background: transparent;
 }
 .modal-content {
-    background-color:rgb(1, 64, 64);
-    border: 3px solid black;
+    background-color: transparent;
+}
+
+/* Gallery Page*/
+
+/* Gallery Section */
+
+.gallery-section {
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.gallery-item {
+    position: relative;
+    display: block;
+   padding: 3px;
+  
+
+}
+.image-detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    opacity: 0;
+    transition: opacity ease-in-out.5s;
+    
+}
+
+  
+.image-detail:hover {
+    opacity: 1;
+  
 }
 
 /* Media queries  */

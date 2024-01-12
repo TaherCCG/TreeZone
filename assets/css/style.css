@@ -19,6 +19,7 @@ body {
 
 /* Navbar  */
 .navbar {
+    
     background-color: rgb(1, 64, 64);
     top: 0;
     z-index: 2;
@@ -28,7 +29,7 @@ body {
 #logo {
 
     font-family: 'Kantumruy Pro', sans-serif;
-    padding-left: 15px;
+    padding-left: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -52,14 +53,9 @@ body {
 }
 
 /* Hero Section */
-.hero-section {
-    height: 800px;
+.hero {
+    height: 400px;
     width: 100%;
-    background: url("../images/tree-img4.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -67,10 +63,51 @@ body {
     margin-top: 75px;
 }
 
+.hero--gallery-image {
+    background: url("../images/couple-of-lions-sitting-on-top-of-a-tree-branch.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero--home-image {
+    background: url("../images/tree-img4.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hero--learn-image {
+    background: url("../images/tree-img1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hero--contact-image {
+    background: url("../images/tree-img8.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-bottom: 2px solid #12d41c8c;
+    border-top: 2px solid #84eff360;
+    border-radius: 15%;
+    animation: zoom-in 3s forwards;
+}
+
+
 /* Jumbotron */
 .jumbotron {
+  
     margin: 5 auto;
-    animation: jumbotron-zoom 3s forwards;
+    animation: zoom-in 3s forwards;
 }
 
 .jumbotron-header {
@@ -95,8 +132,8 @@ body {
 
 
 
-/* Jumbotron keyframes animation */
-@keyframes jumbotron-zoom {
+/* Zoom-in keyframes animation */
+@keyframes zoom-in {
     from {
         transform: scale(0);
         opacity: 0;
@@ -134,16 +171,16 @@ body {
 
 
 /* Highlight sections */
-.do-your-bit {
+.section-bg-c1{
     background-color: rgba(25, 78, 80, 0.5);
 }
 
-.future-gen {
+.section-bg-c2 {
     background-color: rgba(34, 83, 37, 0.5);
 }
 
-.one-tree {
-    background-color: rgba(25, 78, 80, 0.5);
+.section-bg-c3 {
+    background-color: rgba(80, 61, 25, 0.5);
 }
 
 .feature-image {
@@ -223,7 +260,7 @@ footer {
 /* Gallery Section */
 
 .gallery-section {
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 5px;
 }
 
@@ -257,16 +294,87 @@ footer {
     opacity: 1;
   
 }
+iframe {
+    width: 426px;
+    height:240px;
+}
+
+/* Learn Page Styling */
+.learn-section {
+   background-color: rgba(25, 78, 80, 0.5);
+    margin: 10px 5px;
+}
+
+.card {
+   margin: 5px 5px;
+    padding: 2px;  
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border-top: 5px solid #16cdd3a9;
+    border-bottom: 5px solid #12d41c8c;
+}
+
+.note {
+    border:2px dotted #16cdd3a9;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.spread {
+    border:2px dotted #12d41c8c;
+    padding: 10px;
+}
+
+.card-header, .card-footer {
+    /* width: 100%; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 /* Media queries  */
 
-@media (max-width: 600px) {
+
+@media (min-width: 576px) {
     body {
         font-size: 1em;
     }
+    .hero{
+        height: 500px;
+        width: 100%;
+    }
+    .navbar-expand-sm {
+        flex-wrap: wrap;
+    }
+
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
 
     iframe {
-        width: 380px;
-        height: 240px;
+        width: 640px;
+        height: 360px;
+    }
+    .hero{
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1.3em;
+    }
+
+    iframe {
+        width: 854px;
+        height: 480px;
+    }
+}
+@media (min-width: 1400px) {
+
+    iframe {
+        width: 1280px;
+        height: 720px;
     }
 }

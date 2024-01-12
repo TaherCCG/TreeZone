@@ -342,9 +342,7 @@ iframe {
         height: 500px;
         width: 100%;
     }
-    .navbar-expand-sm {
-        flex-wrap: wrap;
-    }
+
 
 }
 @media (min-width: 768px) {

@@ -72,7 +72,7 @@
         </nav>
     </header>
     <!-- Hero Section -->
-    <section class="hero hero--home-image ">
+    <div class="hero hero--home-image ">
         <!-- Callout -->
         <div class="callout jumbotron text-center">
             <h2 class="jumbotron-header">
@@ -92,7 +92,7 @@
             </button>
 
         </div>
-    </section>
+    </div>
 
     <!-- Main Section -->
     <main class="container-fluid main-container">
@@ -100,12 +100,12 @@
         <article class="container highlights-section">
             <div class="row d-flex justify-content-center align-items-center text-center">
                 <!-- Section Heading -->
-                <section class="col-12 page-header">
+                <header class="col-12 page-header">
                     <h2>Tree Planting Initiatives</h2>
                     <hr class="class-divider class-divider--short">
-                </section>
+                </header>
                 <!-- Highlights Section 1-->
-                <section class="row section-bg-c1">
+                <div class="row section-bg-c1">
                     <div class="col-md-6 col-sm-12 container-fluid py-4">
                         <img src="assets/images/forest-trees.webp" alt="Image of Trees" class="feature-image img-fluid">
                     </div>
@@ -122,9 +122,9 @@
                             </a>
                         </p>
                     </div>
-                </section>
+                </div>
                 <!-- Highlights Section 2-->
-                <section class="row section-bg-c2">
+                <div class="row section-bg-c2">
                     <div class="feature2 col-md-6 col-sm-12 py-5">
                         <h3 class="text-uppercase">For future Generation!</h3>
                         <p>Planting trees for the future is a proactive and sustainable way to invest in the well-being.
@@ -140,9 +140,9 @@
                         <img src="assets/images/family-planting-tree.webp"
                             alt="Image of a man with his child planting a tree" class="feature-image img-fluid">
                     </div>
-                </section>
+                </div>
                 <!-- Highlights Section 3-->
-                <section class="row section-bg-c3">
+                <div class="row section-bg-c3">
                     <div class=" col-md-6 col-sm-12 container-fluid py-4" id="feature3-image">
                         <img src="assets/images/tree-in-a-field.webp" alt="Image of one tree in a field"
                             class="feature-image img-fluid">
@@ -161,7 +161,7 @@
                             </a>
                         </p>
                     </div>
-                </section>
+                </div>
 
             </div>
             <hr>
@@ -170,12 +170,12 @@
         <article class="container quotes-container">
             <div class="row justify-content-center">
                 <!-- Quotes Section Heading -->
-                <section class="col-12 page-header">
+                <div class="col-12 page-header">
                     <h2 class="text-uppercase text-center">Testimonials</h2>
                     <hr class="class-divider class-divider--short">
-                </section>
+                </div>
                 <!-- Quote 1 Section -->
-                <section class="col-12 col-md-4 quote-card">
+                <div class="col-12 col-md-4 quote-card">
                     <div class="d-none d-sm-block media-image">
                         <img src="assets/images/profile-pic-lila.webp" alt="Profile picture of Lila"
                             class="rounded-circle mr-3 profile-image">
@@ -195,9 +195,9 @@
                             <p>- Lila N.</p>
                         </blockquote>
                     </div>
-                </section>
+                </div>
                 <!-- Quote 2 Section -->
-                <section class="col-12 col-md-4 quote-card">
+                <div class="col-12 col-md-4 quote-card">
                     <div class="d-none d-sm-block ">
                         <img src="assets/images/profile-pic-emma.webp" alt="Profile picture of Emma"
                             class="rounded-circle mr-3 profile-image">
@@ -215,9 +215,9 @@
                             <p>- Emma G.</p>
                         </blockquote>
                     </div>
-                </section>
+                </div>
                 <!-- Quote 3 Section -->
-                <section class="col-12 col-md-4 quote-card">
+                <div class="col-12 col-md-4 quote-card">
                     <div class="d-none d-sm-block">
                         <img src="assets/images/profile-pic-joseph.webp" alt="Profile picture of Joseph"
                             class="rounded-circle mr-3 profile-image">
@@ -235,7 +235,7 @@
                             <p>- Joseph G.</p>
                         </blockquote>
                     </div>
-                </section>
+                </div>
             </div>
         </article>
 
@@ -331,7 +331,7 @@
                 </section>
                 <!-- Newsletter-->
                 <section class="col-md-4 mb-4 mb-md-0 text-center newsletter-section">
-                    <a href="index.html" class="text-decoration-none text-white" id="logo"
+                    <a href="index.html" class="text-decoration-none text-white"
                         aria-label="This link will take you to home page.">
                         <h2>
                             Tree
@@ -346,10 +346,10 @@
                             <label for="inputEmail">
                                 Sign Up for News Letter
                             </label>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp1"
                                 placeholder="Enter email" required>
-                            <p class="text-muted">
-                                <small id="emailHelp" class="form-text">
+                            <p  class="text-muted">
+                                <small id="emailHelp1" class="form-text email-help">
                                     We'll never share your email with anyone else.
                                 </small>
                             </p>
@@ -424,7 +424,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form target="_blank" action="newsletter.html" method="get" id="newsletter" name="newsletter">
+                    <form target="_blank" action="newsletter.html" method="get" name="newsletter">
                         <div class="form-group">
                             <label for="firstName">
                                 First Name:
@@ -446,7 +446,7 @@
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
                                 placeholder="Enter email" required>
                             <p class="text-muted">
-                                <small id="emailHelp" class="form-text">
+                                <small id="emailHelp" class="form-text email-help">
                                     We'll never share your email with anyone else.
                                 </small>
                             </p>

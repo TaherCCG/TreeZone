@@ -105,8 +105,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  
-    margin: 5 auto;
+    margin: 0;
     animation: zoom-in 3s forwards;
 }
 
@@ -236,24 +235,26 @@ footer {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-#emailHelp {
+.email-help {
+   
     color:lightslategrey;
+    font-size: 14px;
 }
 
 /* Modal */
 .modal-dialog {  
-    background-color: rgba(10, 37, 18,1);
+    background-color:rgb(1, 64, 64);
     padding: 15px;
     border-radius: 10%;
     border-top: 5px solid #16cdd3a9;
     border-bottom: 5px solid #12d41c8c;
 }
-.modal-header {
+.modal-header,
+.modal-content  {
     background: transparent;
+    border: none;
 }
-.modal-content {
-    background-color: transparent;
-}
+
 
 /* Gallery Page*/
 

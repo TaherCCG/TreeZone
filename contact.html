@@ -50,14 +50,15 @@
                             Learn
                         </a>
                     </li>
-                    <li class="nav-item mx-2 active">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="gallery.html"
                             aria-label="Go to Gallery Page, to see our gallery photos from our members">
                             Gallery
                         </a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="contact.html" aria-label="Go to Contact Page, to find out more About Tree Zone and Contact us.">
+                    <li class="nav-item mx-2 active">
+                        <a class="nav-link" href="contact.html"
+                            aria-label="Go to Contact Page, to find out more About Tree Zone and Contact us.">
                             Contact
                         </a>
                     </li>
@@ -71,14 +72,88 @@
         </nav>
     </header>
 
-     <!-- Hero Section -->
-     <section class="hero hero--gallery-image img-fluid">
-        
-        <div class="hero-header"><h1>Gallery</h1></div>
-        
-    </section>
+    <!-- Hero Section -->
 
-    
+    <main>
+
+        <div class="leaves">
+            <section class="contact-f border-style">
+                <h2>Get in touch with us:</h2>
+                <form target="_blank" action="newsletter.html" method="get" id="newsletter" name="newsletter">
+                    <div class="form-group">
+                        <label for="firstName">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="firstName" aria-label="Enter your first name"
+                            placeholder="Enter First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">
+                            Last Name:
+                        </label>
+                        <input type="text" class="form-control" id="lastName" aria-label="Enter your last name"
+                            placeholder="Enter Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail1">
+                            Email:
+                        </label>
+                        <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp"
+                            placeholder="Enter email" required>
+                        <p class="email-help">
+                            We'll never share your email with anyone else.
+                        </p>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Leave us a message:</label>
+                        <textarea name="message" class="form-control" id="message" cols="10" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success mb-2">Submit</button>
+                    </div>
+                </form>
+            </section>
+            <section class="google-map border-style">
+                <h2>Location on google-map</h2>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4013.7515224984127!2d-1.9043946217373655!3d52.48101359416924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc8c29b20621%3A0xf941cb152fe6c4b5!2sColmore%20Row%2C%20Birmingham!5e0!3m2!1sen!2suk!4v1705173333219!5m2!1sen!2suk"
+                   style="border:0;" allowfullscreen="" loading="lazy" class="map-iframe"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+            <div class="set">
+                <div>
+                    <img src="assets/images/leaves/leaves1.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves2.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves3.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves4.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves1.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves2.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves3.png" alt="picture of a leaf">
+                </div>
+                <div>
+                    <img src="assets/images/leaves/leaves4.png" alt="picture of a leaf">
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white">
         <!-- Social Network Links section -->

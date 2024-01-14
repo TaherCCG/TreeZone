@@ -1,25 +1,25 @@
 /*  Import Google fonts Kantumruy Pro weight 400, 700 */
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap');
 
-* {
+:root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 1em;
 }
 
 body {
     margin: 0;
     width: 100%;
     height: 100vh;
-    font-family: 'Kantumruy Pro', sans-serif;
-    font-size: 1.3em;
     color: whitesmoke;
     background-color: rgb(1, 64, 64);
 }
 
 /* Navbar  */
 .navbar {
-    
+
     background-color: rgb(1, 64, 64);
     top: 0;
     z-index: 2;
@@ -78,6 +78,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .hero--learn-image {
     background: url("../images/tree-img1.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -85,6 +86,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .hero--contact-image {
     background: url("../images/tree-img8.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -159,6 +161,7 @@ body {
 .class-divider--short {
     width: 25%;
 }
+
 .class-divider--tiny {
     width: 15%;
 }
@@ -170,16 +173,20 @@ body {
 
 
 /* Highlight sections */
-.section-bg-c1{
+.section-bg-c1 {
     background-color: rgba(25, 78, 80, 0.5);
 }
 
 .section-bg-c2 {
     background-color: rgba(34, 83, 37, 0.5);
+  
 }
 
 .section-bg-c3 {
     background-color: rgba(80, 61, 25, 0.5);
+}
+.section-bg-c4 {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .feature-image {
@@ -236,10 +243,11 @@ footer {
 }
 
 .email-help {
-   
-    color:lightslategrey;
+
+    color: lightslategrey;
     font-size: 14px;
 }
+
 .border-style {
     border-radius: 5%;
     border-top: 5px solid #16cdd3a9;
@@ -248,15 +256,16 @@ footer {
 
 
 /* Modal */
-.modal-dialog {  
-    background-color:rgb(1, 64, 64);
+.modal-dialog {
+    background-color: rgb(1, 64, 64);
     padding: 15px;
     border-radius: 10%;
     border-top: 5px solid #16cdd3a9;
     border-bottom: 5px solid #12d41c8c;
 }
+
 .modal-header,
-.modal-content  {
+.modal-content {
     background: transparent;
     border: none;
 }
@@ -274,17 +283,18 @@ footer {
 .gallery-item {
     position: relative;
     display: block;
-   padding: 3px;
-  
+    padding: 3px;
+
 
 }
+
 .image-detail {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
- 
+
     background: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
@@ -293,28 +303,26 @@ footer {
     color: whitesmoke;
     opacity: 0;
     transition: opacity ease-in-out.5s;
-    
+
 }
 
-  
+
 .image-detail:hover {
     opacity: 1;
-  
+
 }
+
 iframe {
     width: 426px;
-    height:240px;
+    height: 240px;
 }
 
 /* Learn Page Styling */
-.learn-section {
-   background-color: rgba(25, 78, 80, 0.5);
-    margin: 10px 5px;
-}
+
 
 .card {
-   margin: 5px 5px;
-    padding: 2px;  
+    margin: 5px 5px;
+    padding: 2px;
     background: rgba(0, 0, 0, 0.5);
     color: whitesmoke;
     border-top: 5px solid #16cdd3a9;
@@ -322,18 +330,24 @@ iframe {
 }
 
 .note {
-    border:2px dotted #16cdd3a9;
+    border: 2px dotted #16cdd3a9;
     padding: 10px;
     font-size: 14px;
 }
 
 .spread {
-    border:2px dotted #12d41c8c;
+    border: 2px dotted #12d41c8c;
     padding: 10px;
 }
 
-.card-header, .card-footer {
+.card-header,
+.card-footer {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+li {
+    text-align: left;
+    margin: 1px;
 }
 
 /* Contact Page Styling */
@@ -349,20 +363,22 @@ iframe {
     z-index: 1;
     padding: 15px;
 }
+
 .google-map {
     background-color: rgba(0, 0, 0, 0.3);
     width: 70%;
     align-content: center;
     position: relative;
     left: 15%;
-   padding: 10px;
+    padding: 10px;
     margin-bottom: 30px;
     z-index: 0;
 }
+
 .map-iframe {
-position: relative;
-width:100%;
-height: 450;
+    position: relative;
+    width: 100%;
+    height: 450;
 }
 
 /* Leaves Animation */
@@ -376,95 +392,107 @@ height: 450;
     justify-content: center;
     align-items: center;
 }
-.leaves .contact-f h2, 
-.leaves .google-map h2 {
+
+.leaves .contact-f h2,
+.leaves .google-map h5 {
     color: #fff;
     font-size: 2em;
     text-transform: uppercase;
 }
+
 .leaves .set {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    pointer-events:none ;
+    pointer-events: none;
 }
+
 .leaves .set div {
     position: absolute;
     display: block;
 }
+
 .leaves .set div:nth-child(1) {
     left: 20%;
     animation: animate 15s linear infinite;
     animation-delay: -7s;
 }
+
 .leaves .set div:nth-child(2) {
     left: 50%;
     animation: animate 15s linear infinite;
     animation-delay: -5s;
 }
+
 .leaves .set div:nth-child(3) {
     left: 70%;
     animation: animate 15s linear infinite;
     animation-delay: -0s;
 }
+
 .leaves .set div:nth-child(4) {
     left: 0%;
     animation: animate 15s linear infinite;
     animation-delay: -5s;
 }
+
 .leaves .set div:nth-child(5) {
     left: 85%;
     animation: animate 18s linear infinite;
     animation-delay: -10s;
 }
+
 .leaves .set div:nth-child(6) {
     left: 0%;
     animation: animate 12s linear infinite;
 }
+
 .leaves .set div:nth-child(7) {
     left: 15%;
     animation: animate 14s linear infinite;
 }
+
 .leaves .set div:nth-child(8) {
     left: 60%;
     animation: animate 15s linear infinite;
     animation-delay: -10s;
 }
+
 @keyframes animate {
-    0%
-    {
+    0% {
         opacity: 0;
         top: -10%;
         transform: translateX(20px) rotate(0deg);
     }
-    10%
-    {
+
+    10% {
         opacity: 1;
     }
-    20%
-    {
+
+    20% {
         transform: translateX(-20px) rotate(45deg);
     }
-    40%
-    {
+
+    40% {
         transform: translateX(-20px) rotate(90deg);
     }
-    60%
-    {
+
+    60% {
         transform: translateX(20px) rotate(180deg);
     }
-    80%
-    {
+
+    80% {
         transform: translateX(-20px) rotate(180deg);
     }
-    100%
-    {
+
+    100% {
         top: 110%;
         transform: translateX(-20px) rotate(225deg);
     }
 }
+
 /* Media queries  */
 
 
@@ -472,13 +500,15 @@ height: 450;
     body {
         font-size: 1em;
     }
-    .hero{
+
+    .hero {
         height: 500px;
         width: 100%;
     }
 
 
 }
+
 @media (min-width: 768px) {
     body {
         font-size: 1.2em;
@@ -488,7 +518,8 @@ height: 450;
         width: 640px;
         height: 360px;
     }
-    .hero{
+
+    .hero {
         height: 600px;
         width: 100%;
     }
@@ -504,6 +535,7 @@ height: 450;
         height: 480px;
     }
 }
+
 @media (min-width: 1400px) {
 
     iframe {

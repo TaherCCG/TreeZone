@@ -21,12 +21,7 @@
 - [Structure](#structure)
     + [Architecture](#architecture)
     + [UX Design](#ux-design)
-    + [User Stories](#user-stories)
-        * [As a First Time Visitor](#as-a-first-time-visitor)
-        * [As a returning visitor](#as-a-returning-visitor)
-        * [As a frequent user](#as-a-frequent-user)
 
-- []
 - [Wireframe](#wireframe)
     + [Home Page](#desktop)
     + [Learn Page](#home-page)
@@ -94,7 +89,46 @@ These are the goals that will be implanted to this site in future:
 
 <p>This project is based on HTML, CSS and Bootstrap.  Apart form Bootstrap(JS/JQuery) there is no other use of JavaScript functionality.  Therefore no data is sent to backend, this limits some of the functionality of the landing page. No monthly subscriptions, newsletter subscription or sign-up is processed. Instead the user gets a Response page to acknowledge the input.</p>
 <p>I will implement the required technologies JavaScript and Backend DB in future to meet all of the Future Goals.</p>
+<br>
 
+
+## User Stories 
+<p>To achieve this goal, I put my self as a user to create User Stories. Starting with a new user, I imagined what a first-time visitor will want from this site.  How easy it is to find out what the site is about? Is it easy to navigate? etc.  Once I had the new visitor stories then I continued the same process for a returning visitor and finally a frequent user.</p
+
+#### As a First Time Visitor 
+
+<ul> 
+<li> As a first-time visitor, I want to easily navigate the website's homepage, so that I can quickly understand its purpose and find relevant information. </li> 
+
+<li> As a first-time visitor, I want to easily sign up on the website, so that I can get newsletters and upcoming event details via email. </li> 
+
+
+<li> As a first-time visitor, I want to learn about the organization's impact, so I can understand how my involvement can make a difference. </li> 
+
+
+<li> As a first-time visitor, I want to see positive testimonials or reviews, so I can build trust in the organization. </li> 
+</ul> 
+
+
+#### As a returning visitor 
+
+<ul> 
+<li> As a returning visitor, I want to discover new features, events, or community activities related to tree planting, so that I can stay engaged and involved. </li> 
+
+<li> As a returning visitor, I want to see any new projects or initiatives the organisation has undertaken since my last visit. </li> 
+
+<li> As a returning visitor, I want to easily find contact information, so I can reach out for more information if needed. </li> 
+</ul> 
+
+#### As a frequent user 
+
+<ul> 
+<li> As a frequent visitor, I want to easily share my tree planting activities on social media, so that I can inspire others to join the cause. </li> 
+
+<li> As a frequent visitor, I want to see any special events or promotions, so I can plan my engagement with the organisation. </li> 
+</ul> 
+<br> 
+<hr> 
 
 ## Research
 <p>Our research for the Tree Zone is centred on creating a platform that seamlessly connects environmentally conscious donors with tree planting initiatives worldwide. The foundation of this initiative lies in a detailed exploration of the environmental landscape, assessing climate conditions, soil types, and biodiversity in regions where tree planting projects are prevalent. By understanding the unique needs of different ecosystems, we aim to facilitate the donation of tree species that align with local environmental contexts, ensuring the sustained health and growth of donated trees.  In terms of logistics and operations, our research involves mapping out strategic partnerships with reputable tree-planting organisations, both local and global.</p> 
@@ -149,43 +183,6 @@ As this website is structured in HTML, CSS, and Bootstrap only, I have added the
 
 
 
-### User Stories 
-<p>To achieve this goal, I put my self as a user to create User Stories. Starting with a new user, I imagined what a first-time visitor will want from this site.  How easy it is to find out what the site is about? Is it easy to navigate? etc.  Once I had the new visitor stories then I continued the same process for a returning visitor and finally a frequent user.</p>
-
-#### As a First Time Visitor 
-
-<ul> 
-<li> As a first-time visitor, I want to easily navigate the website's homepage, so that I can quickly understand its purpose and find relevant information. </li> 
-
-<li> As a first-time visitor, I want to easily sign up on the website, so that I can get newsletters and upcoming event details via email. </li> 
-
-
-<li> As a first-time visitor, I want to learn about the organization's impact, so I can understand how my involvement can make a difference. </li> 
-
-
-<li> As a first-time visitor, I want to see positive testimonials or reviews, so I can build trust in the organization. </li> 
-</ul> 
-
-
-#### As a returning visitor 
-
-<ul> 
-<li> As a returning visitor, I want to discover new features, events, or community activities related to tree planting, so that I can stay engaged and involved. </li> 
-
-<li> As a returning visitor, I want to see any new projects or initiatives the organisation has undertaken since my last visit. </li> 
-
-<li> As a returning visitor, I want to easily find contact information, so I can reach out for more information if needed. </li> 
-</ul> 
-
-#### As a frequent user 
-
-<ul> 
-<li> As a frequent visitor, I want to easily share my tree planting activities on social media, so that I can inspire others to join the cause. </li> 
-
-<li> As a frequent visitor, I want to see any special events or promotions, so I can plan my engagement with the organisation. </li> 
-</ul> 
-<br> 
-<hr> 
 
 ### Design
 

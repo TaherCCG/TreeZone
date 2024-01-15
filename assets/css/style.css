@@ -1,5 +1,5 @@
 /*  Import Google fonts Kantumruy Pro weight 400, 700 */
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
     margin: 0;
@@ -11,35 +11,26 @@
 
 /* 
 
-#014040
-#0F7492
-#017B41
-#7F6D02
-
 Color Theme Swatches in Hex
-.My-Color-Theme-1-hex { color: #014040; }
-.My-Color-Theme-2-hex { color: #0F7392; }
-.My-Color-Theme-3-hex { color: #017B41; }
-.My-Color-Theme-4-hex { color: #7F6D02; }
-
-.My-Color-Theme-5-hex { color: #E6C307; }
+.Tree-Zone-1-hex { color: #014040; }
+.Tree-Zone-2-hex { color: #0F7392; }
+.Tree-Zone-3-hex { color: #017B41; }
+.Tree-Zone-4-hex { color: #8A640A; }
+.Tree-Zone-5-hex { color: #E6C307; }
 
 Color Theme Swatches in RGBA
-.My-Color-Theme-1-rgba { color: rgba(1, 64, 64, 1); }
-.My-Color-Theme-2-rgba { color: rgba(15, 115, 146, 1); }
-.My-Color-Theme-3-rgba { color: rgba(1, 123, 65, 1); }
-.My-Color-Theme-4-rgba { color: rgba(127, 109, 2, 1); }
-
-.My-Color-Theme-5-rgba { color: rgba(230, 195, 7, 1); }
+.Tree-Zone-1-rgba { color: rgba(1, 64, 64, 1); }
+.Tree-Zone-2-rgba { color: rgba(15, 115, 146, 1); }
+.Tree-Zone-3-rgba { color: rgba(1, 123, 65, 1); }
+.Tree-Zone-4-rgba { color: rgba(138, 100, 10, 1); }
+.Tree-Zone-5-rgba { color: rgba(230, 195, 7, 1); }
 
 Color Theme Swatches in HSLA
-.My-Color-Theme-1-hsla { color: hsla(180, 96, 12, 1); }
-.My-Color-Theme-2-hsla { color: hsla(194, 81, 31, 1); }
-.My-Color-Theme-3-hsla { color: hsla(151, 98, 24, 1); }
-.My-Color-Theme-4-hsla { color: hsla(51, 96, 25, 1); }
-
-.My-Color-Theme-5-hsla { color: hsla(50, 94, 46, 1); }
-
+.Tree-Zone-1-hsla { color: hsla(180, 96, 12, 1); }
+.Tree-Zone-2-hsla { color: hsla(194, 81, 31, 1); }
+.Tree-Zone-3-hsla { color: hsla(151, 98, 24, 1); }
+.Tree-Zone-4-hsla { color: hsla(42, 86, 29, 1); }
+.Tree-Zone-5-hsla { color: hsla(50, 94, 46, 1); }
 
 
 */
@@ -219,7 +210,7 @@ body {
 }
 
 .section-bg-c3 {
-    background-color: #7c550d;
+    background-color: rgb(138, 100, 10);
 }
 .section-bg-c4 {
     background-color: rgba(0, 0, 0, 0.5);

@@ -41,7 +41,8 @@ body {
     width: 100%;
     height: 100vh;
     color: #f5f5f5;
-    background-color: rgb(1, 64, 64);
+    /* background-color: rgb(1, 64, 64); */
+    background: radial-gradient(rgb(1, 64, 64), #000);
 }
 
 /* Navbar  */
@@ -210,7 +211,7 @@ body {
 }
 
 .section-bg-c3 {
-    background-color: rgb(138, 100, 10);
+    background-color: rgb(138, 100, 10,0.3);
 }
 .section-bg-c4 {
     background-color: rgba(0, 0, 0, 0.5);
@@ -243,7 +244,7 @@ body {
 }
 
 .media-body {
-    border: 2px solid rgba(0, 0, 0, 0.7);
+    border: 2px solid rgba(7, 235, 102, 0.7);
     padding: 10px 15px;
     min-height: 300px;
     margin: 15px 0;
@@ -252,7 +253,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(1, 64, 64);
 }
 
 .social-links {
@@ -412,8 +413,8 @@ li {
 .leaves {
     position: relative;
     width: auto;
-    height: 100%;
-    background: radial-gradient(#01460c, #000);
+    /* height: 100%; */
+    /* background: radial-gradient(#01460c, #000); */
     overflow: hidden;
     display: block;
     justify-content: center;

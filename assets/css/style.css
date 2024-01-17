@@ -254,6 +254,7 @@ body {
 /* Footer */
 footer {
     background-color: rgb(1, 64, 64);
+
 }
 
 .social-links {
@@ -264,6 +265,7 @@ footer {
 .contact-section,
 .sitemap-section {
     padding-top: 30px;
+    text-align: center;
 }
 
 .copyright-section {

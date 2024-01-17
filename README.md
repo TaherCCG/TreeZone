@@ -5,33 +5,48 @@
 
 
 #### Table of Contents
-- [Strategy ](#strategy)
-    + [Project Goals](#project-goals)
-        * [Current Goals](#current-goals)
-        * [Future goals](#future-goals)
-        * [Limitations](#limitations)
-    + [User Stories](#user-stories)
-        * [As a First Time Visitor](#as-a-first-time-visitor)
-        * [As a returning visitor](#as-a-returning-visitor)
-        * [As a frequent user](#as-a-frequent-user)    
-    + [Research](#research)
-        * [Business-to-Consumer (B2C)](#b2c)
-        * [Business-to-Business (B2B)](#b2b)
-    + [Trade Off Chart](#trade-off-chart)
-
+- [Strategy](#strategy)
+  - [Project Goals](#project-goals)
+    - [Current Goals](#current-goals)
+    - [Future goals](#future-goals)
+    - [Limitations](#limitations)
+  - [User Stories](#user-stories)
+    - [As a First Time Visitor](#as-a-first-time-visitor)
+    - [As a returning visitor](#as-a-returning-visitor)
+    - [As a frequent user](#as-a-frequent-user)
+  - [Research](#research)
+    - [B2C](#b2c)
+    - [B2B](#b2b)
+  - [Trade Off Chart](#trade-off-chart)
 - [Structure](#structure)
-    + [Architecture](#architecture)
-    + [UX Design](#user-experience-design)
-    + [Navigation](#navigation)
-    + [Sitemap](#sitemap)
-
+  - [Architecture](#architecture)
+  - [User Experience Design](#user-experience-design)
+  - [Navigation](#navigation)
+  - [Features](#features)
+    - [Navbar](#navbar)
+    - [Home Page](#home-page)
+    - [Learn Page](#learn-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Page](#contact-page)
+    - [Modal Form](#modal-form)
+  - [Technologies Used](#technologies-used)
 - [Design](#design)
-    + [Colour Scheme](#colour-scheme)
-    + [Typography](#typography)
-    + [Wireframe](#wireframe)
-        * [Mobile](#mobile)
-        * [Tablet](#tablet)
-        * [Desktop](#desktop)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Wireframe](#wireframe)
+    - [Mobile](#mobile)
+    - [Tablet](#tablet)
+    - [Desktop](#desktop)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
+- [Credits](#credits)
+  - [Images:](#images)
+    - [Profile Images](#profile-images)
+    - [Tree Images](#tree-images)
+  - [Youtube Video](#youtube-video)
+  - [Tools](#tools)
+- [Acknowledgments](#acknowledgments)
 
 
 
@@ -224,7 +239,18 @@ All other pages will have the relevant information for each page. The Learn page
 
 #### Gallery Page
 
-### Contact Page
+#### Contact Page
+
+#### Modal Form
+
+- Mobile
+
+- Desktop
+
+
+
+### Technologies Used
+
 
 ---
 
@@ -324,54 +350,25 @@ Cormorant is a free display type family developed by Christian Thalmann. The pro
 
 #### Mobile
 
-<ul>
-<li>
-
-</li>
-<li>
-
-</li>
-<li>
-
-</li>
-<li>
-
-</li>
-</ul>
+- [Home Page - Mobile Screen](/documentation/images/wireframe/mobil-home-page.png)
+- [Learn Page - Mobile Screen](/documentation/images/wireframe/mobile-learn-page.png)
+- [Gallery Page - Mobile Screen](/documentation/images/wireframe/mobile-gallery-page.png)
+- [Contact Page - Mobile Screen](/documentation/images/wireframe/mobile-contact-page.png)
 
 #### Tablet
 
-<ul>
-<li>
-
-</li>
-<li>
-
-</li>
-<li>
-
-</li>
-<li>
-
-</li>
-</ul>
+- [Home Page - Tablet Screen](/documentation/images/wireframe/tablet-home-page.png)
+- [Learn Page - Tablet Screen](/documentation/images/wireframe/tablet-learn-page.png)
+- [Gallery Page - Tablet Screen](/documentation/images/wireframe/tablet-gallery-page.png)
+- [Contact Page - Tablet Screen](/documentation/images/wireframe/tablet-contact-page.png)
 
 #### Desktop
 
-<ul>
-<li>
+- [Home Page - Desktop Screen](/documentation/images/wireframe/desktop-home-page.png)
+- [Learn Page - Desktop Screen](/documentation/images/wireframe/desktop-home-page.png)
+- [Gallery Page - Desktop Screen](/documentation/images/wireframe/desktop-home-page.png)
+- [Contact Page - Desktop Screen](/documentation/images/wireframe/desktop-home-page.png)
 
-</li>
-<li>
-
-</li>
-<li>
-
-</li>
-<li>
-
-</li>
-</ul>
 <br>
 
 ---
@@ -395,8 +392,83 @@ Cormorant is a free display type family developed by Christian Thalmann. The pro
 
 ## Credits
 
+### Images:
+
+#### Profile Images
+
+- [Profile Picture 1](https://unsplash.com/photos/woman-in-black-and-white-striped-shirt-AJIqZDAUD7A)
+ Photo by <a href="https://unsplash.com/@vinceveras?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vince Veras</a> on <a href="https://unsplash.com/photos/woman-in-black-and-white-striped-shirt-AJIqZDAUD7A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Profile Picture 2](https://unsplash.com/photos/smiling-woman-in-shallow-focus-photography-_H6wpor9mjs)
+Photo by <a href="https://unsplash.com/@everythingcaptured?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Edward Cisneros</a> on <a href="https://unsplash.com/photos/smiling-woman-in-shallow-focus-photography-_H6wpor9mjs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Profile Picture 3](https://unsplash.com/photos/man-wearing-white-v-neck-shirt-iFgRcqHznqg)
+Photo by <a href="https://unsplash.com/@miracletwentyone?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joseph Gonzalez</a> on <a href="https://unsplash.com/photos/man-wearing-white-v-neck-shirt-iFgRcqHznqg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+#### Tree Images
+
+- [Image 1](https://unsplash.com/photos/green-leafed-tree-surrounded-by-fog-during-daytime-S297j2CsdlM)
+Photo by <a href="https://unsplash.com/@simonfromengland?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Simon Wilkes</a> on <a href="https://unsplash.com/photos/green-leafed-tree-surrounded-by-fog-during-daytime-S297j2CsdlM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 2](https://unsplash.com/photos/pine-trees-nTRDnDdDYk8)
+Photo by <a href="https://unsplash.com/@mattartz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matt Artz</a> on <a href="https://unsplash.com/photos/pine-trees-nTRDnDdDYk8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 3]( https://unsplash.com/photos/selective-photography-of-green-leaf-plant-Rfflri94rs8)
+Photo by <a href="https://unsplash.com/@whale?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Smith</a> on <a href="https://unsplash.com/photos/selective-photography-of-green-leaf-plant-Rfflri94rs8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 4](https://unsplash.com/photos/man-in-red-white-and-blue-plaid-button-up-shirt-holding-yellow-plastic-container-VV7hvwRzyQ0)
+Photo by <a href="https://unsplash.com/@preciousplasticmelbourne?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Precious Plastic Melbourne</a> on <a href="https://unsplash.com/photos/man-in-red-white-and-blue-plaid-button-up-shirt-holding-yellow-plastic-container-VV7hvwRzyQ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 5](https://unsplash.com/photos/brown-squirrel-on-green-leafed-tree-qyt0cPByJjs)
+Photo by <a href="https://unsplash.com/@translytranslations?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Transly Translation Agency</a> on <a href="https://unsplash.com/photos/brown-squirrel-on-green-leafed-tree-qyt0cPByJjs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 6](https://unsplash.com/photos/scenery-of-forest-trees-LPKk3wtkC-g)
+Photo by <a href="https://unsplash.com/@evgenievgenief?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Evgeni Evgeniev</a> on <a href="https://unsplash.com/photos/scenery-of-forest-trees-LPKk3wtkC-g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 7](https://unsplash.com/photos/a-group-of-people-holding-hands-on-top-of-a-tree-DNkoNXQti3c)
+Photo by <a href="https://unsplash.com/@shanerounce?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Shane Rounce</a> on <a href="https://unsplash.com/photos/a-group-of-people-holding-hands-on-top-of-a-tree-DNkoNXQti3c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 8](https://unsplash.com/photos/green-pine-tree-during-daytime-3BlVILvh9hM)
+Photo by <a href="https://unsplash.com/@olenkasergienko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Olena Bohovyk</a> on <a href="https://unsplash.com/photos/green-pine-tree-during-daytime-3BlVILvh9hM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 9](https://unsplash.com/photos/green-grass-field-with-trees-during-daytime-Z6E4rJemy24)
+Photo by <a href="https://unsplash.com/@jplenio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johannes Plenio</a> on <a href="https://unsplash.com/photos/green-grass-field-with-trees-during-daytime-Z6E4rJemy24?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 10](https://unsplash.com/photos/person-in-nadEf7Yjb_Q)
+ Photo by <a href="https://unsplash.com/@luisdelrio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luis Del Río Camacho</a> on <a href="https://unsplash.com/photos/person-in-nadEf7Yjb_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 11](https://unsplash.com/photos/aerial-view-of-green-trees-and-river-during-daytime-vkQgb1lZZPQ)
+Photo by <a href="https://unsplash.com/@ivoprod?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ivars Utināns</a> on <a href="https://unsplash.com/photos/aerial-view-of-green-trees-and-river-during-daytime-vkQgb1lZZPQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 12](https://unsplash.com/photos/landscape-photo-of-trees-on-mountain-60tataLkJ0U)
+Photo by <a href="https://unsplash.com/@yan_slg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Boudhayan Bardhan</a> on <a href="https://unsplash.com/photos/landscape-photo-of-trees-on-mountain-60tataLkJ0U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 13](https://unsplash.com/photos/a-couple-of-birds-flying-over-a-lush-green-hillside-Po6LVQ_v5qI)
+Photo by <a href="https://unsplash.com/@j_bergen_films?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jake Bergen</a> on <a href="https://unsplash.com/photos/a-couple-of-birds-flying-over-a-lush-green-hillside-Po6LVQ_v5qI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 14](https://unsplash.com/photos/water-flowing-in-forest-egK73XCwN8I)
+Photo by <a href="https://unsplash.com/@joshuanewton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joshua Newton</a> on <a href="https://unsplash.com/photos/water-flowing-in-forest-egK73XCwN8I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- [Image 15](https://unsplash.com/photos/a-couple-of-lions-sitting-on-top-of-a-tree-branch-v7gZIi0wuIA)
+Photo by <a href="https://unsplash.com/@luis_moritz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luis Mende</a> on <a href="https://unsplash.com/photos/a-couple-of-lions-sitting-on-top-of-a-tree-branch-v7gZIi0wuIA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+
+### Youtube Video
+- [Youtube Video](https://www.youtube.com/@TreesAreAwesome) Was used on learn page.
+
+### Tools
+- [Birme.net](https://www.birme.net/) used to resize images.
+- [Gimp](https://www.gimp.org/) Used to edit and compress images and to make custom logo.
+- [Adobe Color ](https://color.adobe.com/) was used to create Colour Scheme.
+- [Balsamiq](https://balsamiq.com/) was used to create Wireframe.
+
 ---
 
 ## Acknowledgments
+
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova) My Mentor, for all her awesome advice and guidance.
+- [Code Institute](https://codeinstitute.net) Slack community and members for their help and support.
+- [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) for his CSS tutorials.
+- [Online Tutorials](https://www.youtube.com/@OnlineTutorialsYT) for tutorial on CSS Animation.
 
 

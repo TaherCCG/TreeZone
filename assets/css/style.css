@@ -135,7 +135,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    margin: 0;
+    margin: 20px;
     animation: zoom-in 3s forwards;
 }
 

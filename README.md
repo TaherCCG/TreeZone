@@ -446,10 +446,7 @@ Photo by <a href="https://unsplash.com/@yan_slg?utm_content=creditCopyText&utm_m
 - [Image 13](https://unsplash.com/photos/a-couple-of-birds-flying-over-a-lush-green-hillside-Po6LVQ_v5qI)
 Photo by <a href="https://unsplash.com/@j_bergen_films?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jake Bergen</a> on <a href="https://unsplash.com/photos/a-couple-of-birds-flying-over-a-lush-green-hillside-Po6LVQ_v5qI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-- [Image 14](https://unsplash.com/photos/water-flowing-in-forest-egK73XCwN8I)
-Photo by <a href="https://unsplash.com/@joshuanewton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joshua Newton</a> on <a href="https://unsplash.com/photos/water-flowing-in-forest-egK73XCwN8I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-- [Image 15](https://unsplash.com/photos/a-couple-of-lions-sitting-on-top-of-a-tree-branch-v7gZIi0wuIA)
+- [Image 14](https://unsplash.com/photos/a-couple-of-lions-sitting-on-top-of-a-tree-branch-v7gZIi0wuIA)
 Photo by <a href="https://unsplash.com/@luis_moritz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luis Mende</a> on <a href="https://unsplash.com/photos/a-couple-of-lions-sitting-on-top-of-a-tree-branch-v7gZIi0wuIA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 

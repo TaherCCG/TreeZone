@@ -88,16 +88,8 @@ body {
     margin-top: 75px;
 }
 
-.hero--gallery-image {
-    background: url("../images/couple-of-lions-sitting-on-top-of-a-tree-branch.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .hero--home-image {
-    background: url("../images/tree-img4.jpg") no-repeat center center;
+    background: url("../images/bg/a-group-of-people-holding-hands-on-top-of-a-tree.webp") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,15 +97,15 @@ body {
 }
 
 .hero--learn-image {
-    background: url("../images/tree-img1.jpg") no-repeat center center;
+    background: url("../images/bg/selective-photography-of-green-leaf-plant-looks-like-a-small-tree.webp") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.hero--contact-image {
-    background: url("../images/tree-img8.jpg") no-repeat center center;
+.hero--gallery-image {
+    background: url("../images/bg/couple-of-lions-sitting-on-top-of-a-tree-branch-min.webp") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -10,6 +10,13 @@
     line-height: 1.5;
 }
 
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: radial-gradient(rgb(1, 64, 64), #000);
+}
 h2 {
     font-family: 'Cormorant', sans-serif;
     font-size: 2em;
@@ -34,14 +41,6 @@ h5 {
     font-size: 1.6em;
     font-weight: bold;
     font-style: italic;
-}
-
-body {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    color: #f5f5f5;
-    background: radial-gradient(rgb(1, 64, 64), #000);
 }
 
 /* Navbar  */
@@ -90,9 +89,9 @@ body {
 
 .hero--home-image {
     background: url("../images/bg/a-group-of-people-holding-hands-on-top-of-a-tree.webp") no-repeat center center;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
 }
 

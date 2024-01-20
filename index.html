@@ -24,8 +24,8 @@
     <!-- /Header -->
     <header>
         <!-- Navbar -->
-        <nav class="navbar bg-gradient navbar-dark navbar-expand-sm container-fluid">
-            <a href="index.html" class="navbar-brand" id="logo">
+        <nav class="navbar bg-gradient navbar-dark navbar-expand-md container-fluid">
+            <a href="index.html" class="navbar-brand logo">
                 <h1>
                     Tree
                     <span>
@@ -34,12 +34,13 @@
                     Zone
                 </h1>
             </a>
-            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
+            <!-- Hamburger Nav -->
+            <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto align-items-center" id="menu">
                     <li class="nav-item mx-2 active">
@@ -66,15 +67,15 @@
                         </a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-success mx-2" data-bs-toggle="modal" data-bs-target="#signUpModal"
+                <button class="btn btn-success mx-5" data-bs-toggle="modal" data-bs-target="#signUpModal"
                     aria-label="Go to Sign Up form to register.">
-                    SignUp
+                    Signup
                 </button>
             </div>
         </nav>
     </header>
     <!-- Hero Section -->
-    <div class="hero hero--home-image ">
+    <section class="hero hero--home-image">
         <!-- Callout -->
         <div class="callout jumbotron text-center">
             <h2 class="jumbotron-header">
@@ -92,19 +93,20 @@
                 Sign Up
             </button>
         </div>
-    </div>
+    </section>
     <!-- Main Section -->
     <main class="container-fluid main-container">
         <!-- Tree Planting Initiatives Article -->
         <article class="container highlights-section">
             <header>
-                <h3 class="text-uppercase text-center mt-2">Tree Planting Initiatives</h3>
+                <h2 class="text-uppercase text-center mt-2">Tree Planting Initiatives</h2>
                 <hr class="class-divider class-divider--short">
             </header>
             <div class="row d-flex justify-content-center align-items-center text-center">
                 <div class="row section-bg-c1">
                     <div class="col-md-6 col-sm-12 container-fluid py-4">
-                        <img src="assets/images/green-grass-field-with-trees-during-daytime.webp" alt="green grass field with trees during daytime" class="feature-image img-fluid">
+                        <img src="assets/images/green-grass-field-with-trees-during-daytime.webp"
+                            alt="green grass field with trees during daytime" class="feature-image img-fluid">
                     </div>
                     <div class="feature1 col-md-6 col-sm-12 py-5">
                         <h3 class="text-uppercase">Do your bit!</h3>
@@ -112,7 +114,7 @@
                             Participating in global tree-planting initiatives contributes to international efforts to
                             combat deforestation, promote reforestation, and achieve sustainability goals.
                         </p>
-                        <a href="learn.html" class="btn btn-sm btn-light"
+                        <a href="learn.html" class="btn btn-sm learn-more-btn"
                             aria-label="Go to Learn page to Do your bit and learn more about trees">
                             Learn More
                         </a>
@@ -127,20 +129,22 @@
                             well-being.
                             of the planet and future generations.
                         </p>
-                        <a href="learn.html" class="btn btn-sm btn-light"
+                        <a href="learn.html" class="btn btn-sm learn-more-btn"
                             aria-label="Go to Learn page to learn more about trees">
                             Learn More
                         </a>
                     </div>
                     <div class="col-md-6 col-sm-12 py-4">
                         <img src="assets/images/man-in-red-white-and-blue-plaid-button-up-shirt-with-a-child-planting-a-tree.webp"
-                            alt="man in red white and blue plaid button up shirt with a child planting a tree." class="feature-image img-fluid">
+                            alt="man in red white and blue plaid button up shirt with a child planting a tree."
+                            class="feature-image img-fluid">
                     </div>
                 </div>
                 <!-- Highlights Section 3-->
                 <div class="row section-bg-c3">
                     <div class=" col-md-6 col-sm-12 container-fluid py-4" id="feature3-image">
-                        <img src="assets/images/green-leafed-tree-surrounded-by-fog-during-daytime.webp" alt="green leafed tree surrounded by fog during daytime with a single bench underneath it"
+                        <img src="assets/images/green-leafed-tree-surrounded-by-fog-during-daytime.webp"
+                            alt="green leafed tree surrounded by fog during daytime with a single bench underneath it"
                             class="feature-image img-fluid">
                     </div>
                     <div class=" col-md-6 col-sm-12 py-5 " id="feature3">
@@ -152,7 +156,7 @@
                             climate
                             change.
                         </p>
-                        <a href="learn.html" class="btn btn-sm btn-light"
+                        <a href="learn.html" class="btn btn-sm learn-more-btn"
                             aria-label="Go to Learn page to learn more about how you can make an impact by planting a tree">
                             Learn More
                         </a>
@@ -163,15 +167,16 @@
         <!-- Get Involved Article -->
         <article class="container-fluid">
             <!-- Article Header -->
-
+            <header>
+                <h2 class="text-uppercase text-center mt-5">Get Involved</h2>
+                <hr class="class-divider class-divider--tiny">
+            </header>
             <section class="container section-bg-c2 py-2">
-                <header>
-                    <h3 class="text-uppercase text-center mt-5">Get Involved</h3>
-                    <hr class="class-divider class-divider--short">
-                </header>
-                <div class="py-5">
-                    <h3 class="mb-2">Get Involved in our Roots of Change: Monthly Tree Planting Subscription</h3>
-                    <h4>Cultivate a Greener Future with Our Monthly Tree Planting Subscription!</h4>
+
+                <div class="py-4">
+                    <h3 class="mb-4 text-center py-4">Get Involved in our Roots of Change: Monthly Tree Planting
+                        Subscription</h3>
+                    <h4 class="my-3">Cultivate a Greener Future with Our Monthly Tree Planting Subscription!</h4>
                     <p>
                         At Tree Zone, we believe in the power of sustained environmental efforts. Introducing
                         "Roots of Change," our monthly tree planting subscription that allows you to make a positive
@@ -223,6 +228,7 @@
                     <hr class="class-divider ">
                 </div>
                 <div class="row">
+                    <!-- Monthly Plan 1 -->
                     <div class="col-12 col-md-4">
                         <div class="card mb-4">
                             <div class="card-header">
@@ -255,6 +261,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Monthly Plan 2 -->
                     <div class="col-12 col-md-4">
                         <div class="card mb-4">
                             <div class="card-header">
@@ -287,7 +294,7 @@
                             </div>
                         </div>
                     </div>
-
+                       <!-- Monthly Plan 3 -->
                     <div class="col-12 col-md-4 ">
                         <div class="card mb-4">
                             <div class="card-header">
@@ -322,7 +329,7 @@
                     </div>
                 </div>
             </section>
-
+            <!-- Plan Notes Section -->
             <section class="container">
                 <div class="row">
                     <div class="col-12 py-2">
@@ -363,16 +370,16 @@
                     <p><em>Tag us in your tree-planting journey on social media. We'll feature your dedication on our
                             platforms,
                             inspiring others to join the movement.</em></p>
-
                 </div>
             </section>
         </article>
         <!-- Quotes Article -->
         <article class="quotes-container container section-bg-c4 mb-3 py-2">
+            <!-- Article Header -->
             <header>
-                <h3 class="text-uppercase text-center mt-2">Testimonials</h3>
+                <h2 class="text-uppercase text-center mt-2">Testimonials</h2>
                 <hr class="class-divider class-divider--short">
-            </header>
+            </header>            
             <div class="row justify-content-center">
                 <!-- Quote 1 Section -->
                 <div class="col-12 col-md-4 quote-card">
@@ -441,7 +448,6 @@
                 </div>
             </div>
         </article>
-
     </main>
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white">
@@ -534,7 +540,7 @@
                 </section>
                 <!-- Newsletter-->
                 <section class="col-md-4 mb-4 mb-md-0 text-center newsletter-section">
-                    <a href="index.html" class="text-decoration-none text-white"
+                    <a href="index.html" class="text-decoration-none text-white logo"
                         aria-label="This link will take you to home page.">
                         <h2>
                             Tree
@@ -544,7 +550,7 @@
                             Zone
                         </h2>
                     </a>
-                    <form target="_blank" action="newsletter.html" method="get" id="newsletter" name="newsletter">
+                    <form target action="newsletter.html" method="get" id="newsletter" name="newsletter">
                         <div class="form-group">
                             <label for="inputEmail">
                                 Sign Up for News Letter
@@ -556,7 +562,7 @@
                                     We'll never share your email with anyone else.
                                 </small>
                             </p>
-                        </div>
+                        </div>                       
                         <button type="submit" class="btn btn-success mb-2">Submit</button>
                     </form>
                 </section>
@@ -614,7 +620,7 @@
     </footer>
 
     <!-- Modal -->
-    <div class="modal fade" tabindex="-1" id="signUpModal" role="dialog">
+    <aside class="modal fade" tabindex="-1" id="signUpModal" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -672,7 +678,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </aside>
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/0199d382d0.js" crossorigin="anonymous"></script>

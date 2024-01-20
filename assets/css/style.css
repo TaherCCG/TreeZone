@@ -8,34 +8,11 @@
     font-family: 'Kantumruy Pro', sans-serif;
     font-size: 1em;
 }
-
-/* 
-
-Color Theme Swatches in Hex
-.Tree-Zone-1-hex { color: #014040; }
-.Tree-Zone-2-hex { color: #0F7392; }
-.Tree-Zone-3-hex { color: #017B41; }
-.Tree-Zone-4-hex { color: #8A640A; }
-.Tree-Zone-5-hex { color: #E6C307; }
-
-Color Theme Swatches in RGBA
-.Tree-Zone-1-rgba { color: rgba(1, 64, 64, 1); }
-.Tree-Zone-2-rgba { color: rgba(15, 115, 146, 1); }
-.Tree-Zone-3-rgba { color: rgba(1, 123, 65, 1); }
-.Tree-Zone-4-rgba { color: rgba(138, 100, 10, 1); }
-.Tree-Zone-5-rgba { color: rgba(230, 195, 7, 1); }
-
-Color Theme Swatches in HSLA
-.Tree-Zone-1-hsla { color: hsla(180, 96, 12, 1); }
-.Tree-Zone-2-hsla { color: hsla(194, 81, 31, 1); }
-.Tree-Zone-3-hsla { color: hsla(151, 98, 24, 1); }
-.Tree-Zone-4-hsla { color: hsla(42, 86, 29, 1); }
-.Tree-Zone-5-hsla { color: hsla(50, 94, 46, 1); }
-
-
-*/
-
-
+h2,h3 {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
 body {
     margin: 0;
     width: 100%;
@@ -52,8 +29,8 @@ body {
     position: fixed;
 }
 
-#logo {
-    font-family: 'Kantumruy Pro', sans-serif;
+.logo {
+    font-family: 'Cormorant', sans-serif;
     padding-left: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -400,12 +377,25 @@ li {
     height: 450;
 }
 
+/* Response Page */
+.response-section {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    width: 70%;
+    height: 85vh;
+    /* justify-content: center;
+    align-content: center; */
+    position: relative;
+    left: 15%;
+    /* margin-top: 200px;
+    margin-bottom: 30px; */
+    z-index: 1;
+    padding: 15px;
+}
+
 /* Leaves Animation */
 .leaves {
     position: relative;
     width: auto;
-    /* height: 100%; */
-    /* background: radial-gradient(#01460c, #000); */
     overflow: hidden;
     display: block;
     justify-content: center;

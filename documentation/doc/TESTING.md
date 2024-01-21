@@ -143,8 +143,46 @@
 
 ## Validation Testing
 
-### HTML
+### HTML 
  Using W3C HTML validator to test each page.
 
 - **Home Page**
+
+![W£C Home](/documentation/images/home-page/html-w3c-home.png)
+
+- **Learn Page**
+
+![W£C Learn](/documentation/images/learn-page/html-w3c-learn.png)
+
+- **Gallery Page**
+
+![W3C Gallery](/documentation/images/gallery-page/html-w3c-gallery.png)
+
+- **Contact Page**
+
+![W3C Contact fail](/documentation/images/contact-page/html-w3c-contact-fail.png)
+
+- **Response Page**
+
+![W3C Response](/documentation/images/response-page/html-w3c-response.png)
+
+
+### CSS
+
+Using W3C CSS Jigsaw validator to test CSS.
+
+- **Style.css**
+
+- At first it failed.
+![W3C Response](/documentation/images/test/css-w3c-style-fail.png)
+
+- Corrected the mistake to pass.
+
+![W3C Response](/documentation/images/test/css-w3c-style.png)
+
+- Warnings due to vender extensions
+
+![W3C Response](/documentation/images/test/css-w3c-style-warnings.png)
+
+---
 

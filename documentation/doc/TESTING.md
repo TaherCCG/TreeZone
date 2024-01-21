@@ -186,3 +186,23 @@ Using W3C CSS Jigsaw validator to test CSS.
 
 ---
 
+## LightHouse
+
+Using Lighthouse to check performance.
+
+- **Home Page**
+
+
+
+- **Learn Page**
+
+
+- **Gallery Page**
+
+
+- **Contact Page**
+
+
+- **Response Page**
+
+

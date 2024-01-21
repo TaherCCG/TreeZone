@@ -22,12 +22,14 @@ h2 {
     font-family: 'Cormorant', sans-serif;
     font-size: 2em;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 h3 {
     font-family: 'Cormorant', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 h5 {
@@ -35,6 +37,7 @@ h5 {
     font-size: 1.2em;
     font-weight: bold;
     font-style: italic;
+    color: whitesmoke;
 }
 
 .learning-container h3 {

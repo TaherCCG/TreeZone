@@ -162,6 +162,10 @@
 
 ![W3C Contact fail](/documentation/images/contact-page/html-w3c-contact-fail.png)
 
+  - Contact Page **PASS** 
+
+![W3C Contact](/documentation/images/contact-page/html-w3c-contact.png)
+
 - **Response Page**
 
 ![W3C Response](/documentation/images/response-page/html-w3c-response.png)

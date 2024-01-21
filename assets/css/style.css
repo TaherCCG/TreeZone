@@ -16,6 +16,7 @@ body {
     height: 100vh;
     color: #fff;
     background: radial-gradient(#014040, #000);
+    font-weight: 600;
 }
 
 h2 {

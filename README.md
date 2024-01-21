@@ -521,9 +521,7 @@ Cormorant is a free display type family developed by Christian Thalmann. The pro
 
 ## Testing
 
-
-
-
+[TESTING.md](/documentation/doc/TESTING.md)
 
 
 ---
@@ -642,6 +640,7 @@ Photo by <a href="https://unsplash.com/@luis_moritz?utm_content=creditCopyText&u
 - [Jigsaw W3 CSS Validator](https://jigsaw.w3.org/) was used to validate CSS document.
 - [Peek](https://github.com/phw/peek) was used for animated gif recordings.
 - [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) was continuously used to test multiple screens while developing.
+- [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) was used to check Web Accessibility.
 
 
 ### Research Websites

@@ -4,12 +4,14 @@
 <em>Milestone Project 1 - Tree Zone Landing Page</em> 
 
 
-#### Table of Contents
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Mockup](#mockup)
 - [Strategy](#strategy)
   - [Project Goals](#project-goals)
     - [Current Goals](#current-goals)
     - [Future goals](#future-goals)
-    - [Limitations](#limitations)
   - [User Stories](#user-stories)
     - [As a First Time Visitor](#as-a-first-time-visitor)
     - [As a returning visitor](#as-a-returning-visitor)
@@ -28,8 +30,10 @@
     - [Learn Page](#learn-page)
     - [Gallery Page](#gallery-page)
     - [Contact Page](#contact-page)
+    - [Response Page](#response-page)
     - [Modal Form](#modal-form)
   - [Technologies Used](#technologies-used)
+    - [Limitations](#limitations)
 - [Design](#design)
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
@@ -46,6 +50,7 @@
     - [Tree Images](#tree-images)
   - [Youtube Video](#youtube-video)
   - [Tools](#tools)
+  - [Research Websites](#research-websites)
 - [Acknowledgments](#acknowledgments)
 
 
@@ -59,6 +64,25 @@
 <br>
 <br>
 <br>
+
+## Introduction
+<p>Tree Zone helps people understand the importance of planting tree's.  Tree Zone is dedicated to fostering a greener and more sustainable future by promoting tree planting initiatives.  Users can explore the benefits of tree planting and discover actionable steps to get involved. Together, let's grow a forest of possibilities and leave a lasting legacy for generations to come. Join us in planting the seeds of change, one tree at a time.</p>
+
+## Mockup
+
+
+![mockup](/documentation/images/mockup.png "tree zone mockup on different devices")
+
+The site can be accessed on GitHub pages by this [link](https://taherccg.github.io/TreeZone/)
+<br>
+
+
+
+<div style="text-align: right;">
+
+[back to Table of Contents](#table-of-contents)
+
+</div>
 
 ---
 
@@ -107,12 +131,6 @@ These are the goals that will be implanted to this site in future:
 </ol> 
 <em>I may add or remove some future goals as this project progresses in the future to meet user feedback. </em> 
 
-#### Limitations
-
-<p>This project is based on HTML, CSS and Bootstrap.  Apart form Bootstrap(JS/JQuery) there is no other use of JavaScript functionality.  Therefore no data is sent to backend, this limits some of the functionality of the landing page. No monthly subscriptions, newsletter subscription or sign-up is processed. Instead the user gets a Response page to acknowledge the input.</p>
-<p>I will implement the required technologies JavaScript and Backend DB in future to meet all of the Future Goals.</p>
-<br>
-
 
 ### User Stories 
 <p>To achieve this goal, I put my self as a user to create User Stories. Starting with a new user, I imagined what a first-time visitor will want from this site.  How easy it is to find out what the site is about? Is it easy to navigate? etc.  Once I had the new visitor stories then I continued the same process for a returning visitor and finally a frequent user.</p
@@ -151,7 +169,6 @@ These are the goals that will be implanted to this site in future:
 </ul> 
 <br> 
 
-
 ### Research
 <p>My research for the Tree Zone is centred on creating a platform that seamlessly connects environmentally conscious donors with tree planting initiatives worldwide. In terms of logistics and operations, our research involves mapping out strategic partnerships with reputable tree-planting organisations, both local and global.</p> 
 <p>
@@ -187,6 +204,13 @@ As this website is structured in HTML, CSS, and Bootstrap only, I have added the
 <hr> 
 <br> 
 
+
+<div style="text-align: right;">
+
+[back to Table of Contents](#table-of-contents)
+
+</div>
+
 ---
 
 ## Structure
@@ -209,48 +233,163 @@ As this website is structured in HTML, CSS, and Bootstrap only, I have added the
 <p>
 
 ### Navigation
+
 <p>
 The navigation will be responsive and user-friendly across various devices, ensuring a consistent experience. The navigation menu is at the top of all pages and is always available to the user. On mobile devices, the navigation menu will collapse with the hamburger icon for quick navigation.
 </p>
+
+![hamburger](/documentation/images/hamburger.png) 
+
 <p>
 The site will have four pages: Home, Learn, Gallery, and Contact.
 On the home page, users will see the hero image followed by a Call to Action (CTA) button.
-</p><p>
+</p>
+
+
+![html pages](/documentation/images/4-pages.png)
+<p>
 The home page will contain information on the Tree Planting Initiative and how everyone can get involved by signing up for a pre-defined tree planting campaign or a personalised tree planting campaign to make a positive impact and reduce their carbon footprint.
 </p><p>
 The CTA will have “Sign Up” on it and not “Donate” as the site is not using JavaScript back-end to process any payments or donations. As this was recognised in the trade-off chart, I have decided to implement this at a later stage when I have the skills acquired in JavaScript and back-end.
 The CTA “Sign Up” button will take you to a modal dialogue with the sign-up form from all pages.
-</p><p>
+</p>
+
+![call to action](/documentation/images/sign-up.png)
+<p>
 All pages will have the same navigation menu and footer. The footer will give the user links to social media, contact information, a sitemap, and a sign-up input for a newsletter subscription.
 From the navigation menu or the sitemap, you can access any page.
-</p><p>
+</p>
+
+![sitemap](/documentation/images/sitemap.png)
+
+<p>
 All other pages will have the relevant information for each page. The Learn page will provide educational information; the Gallery page will have pictures and photos; and the Contact page will have a form for users to contact us and a Google Map showing Tree Zone location.
 </p>
 <hr> 
 <br> 
 
+<div style="text-align: right;">
+
+[back to Table of Contents](#table-of-contents)
+
+</div>
+
 ### Features
 
 #### Navbar
+- Fixed position at the top of the page
+- Contains Brand Logo and name on the left 
+- Menu items links in the middle
+  - HOME - leads to home page where users can learn about the Tree Planting initiative.
+  - Learn - leads to learn page where users can learn the benefits of planting trees and a tree planting guide.
+  - Gallery - leads to gallery page of trees in different locations.
+  - Contact - leads to contact page where users can leave us a message.
+- Sign-up button towards the right.
+    - Sign-up button lets users sign-up their interest.
+- Navigation is easy to understand and the active page is always marked for users to see what page they are on.   
+![navigation](/documentation/images/navigation.png)
+
+- On mobile devices the navigation is activated by pressing the hamburger button
+![navigation-small](/documentation/images/hamburger-menu.png)
+
+---
 
 #### Home Page
 
+- Home page has the information needed for new users to know the idea of the company.
+![Homepage full page](/documentation/images/home-page/homepage-full.png)
+  - The home page has a hero image with a call-to-action section that zooms and fades into the middle of the hero image, capturing user attention.
+  ![cta](/documentation/images/home-page/cta.gif)
+
+  - Home page is split into different sections.
+    - Tree Planting Initiatives
+![tree-planting](/documentation/images/home-page/tree-planting-section.png)
+    - Get Involved Monthly Plans
+![get](/documentation/images/home-page/get-involved.png)
+    - Testimonials
+![testimonials](/documentation/images/home-page/testimonial.png)
+  - Homepage also has a footer inviting user to sign up for a newsletter to stay up to date, contact information and a sitemap, followed by copyright information at the bottom of the page.
+![footer](/documentation/images/footer.png)
+
+--- 
+
 #### Learn Page
+
+- The Learn page invites users to learn about the importance of planting trees. It has a video that plays via user interaction and a step-by-step guide to planting trees.  The Learn page is split up into small grid sections, making the most of bootstrap to organise the content in a user-friendly, readable experience.
+
+![learn-full](/documentation/images/learn-page/learn-full.png)
+
+---
 
 #### Gallery Page
 
+- The gallery page is a collage of tree photos, and when hovered over, it displays related text.
+
+![gallery-full](/documentation/images/gallery-page/gallery-full.png)
+
+---
+
 #### Contact Page
+- The contact page has falling leaves as a background animation.  On the contact page, users have the option to contact us either by using the contact form or by viewing our location on an interactive Google map.
+
+![contact-full](/documentation/images/contact-page/contact-full.png)
+
+---
+
+#### Response Page
+- The response page acknowledges the user's interest once they have signed up.  A message is displayed on the page before redirecting the user to the home page within 15 seconds. The response page also includes an animation of falling leaves.
+
+![response-full](/documentation/images/response-page/response-full.png)
 
 #### Modal Form
 
-- Mobile
+The modal form can be accessed by clicking on the Sign Up button either on the navigation bar, jumbotron CTA button, or by clicking on Sign Up on the monthly plans.
 
-- Desktop
+- Mobile screen size
 
+![modal-mobile](/documentation/images/modal-form-mobile.png)
+
+- Desktop screen size
+  
+![modal-desktop](/documentation/images/modal-form-desktop.png)
 
 
 ### Technologies Used
 
+1. **[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) :** Was used for web structure of the site, ensuring semantic and well-organised content.
+
+2. **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) :** Was used to style page's with CSS features to create a visually appealing and responsive layout. 
+   
+3. **[Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) :** Used for responsive design and a consistent user interface across various devices.
+
+4. **[Gimp](https://www.gimp.org/) :** Used to edit, optimise, compress and export as .webp format images to be used for web application and documentation. 
+
+5.  **[Font Awesome](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/getting-started) :** Was used to integrate vector icons for a modern and visually appealing presentation of the site.
+
+6.  **[Git](https://git-scm.com/doc) :** Using on my linux pc for version control to track changes in my codebase. 
+
+7.  **[GitHub](https://docs.github.com/) :** Used to deploy my code repository and used Github Project. 
+
+8.  **[Visual Studio Code](https://code.visualstudio.com/docs) :** Was used as a development environment. 
+
+9. **[Google Fonts](https://developers.google.com/fonts/docs/getting_started) :** Used for primary and secondary fonts.
+
+10. **[Balsamiq](https://balsamiq.com/) :** Was used to make wireframes for the website.
+
+11. **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) :** None was used apart from what is required for Bootstrap 5  and Fontawesome.
+
+#### Limitations
+
+<p>This project is based on HTML, CSS and Bootstrap.  Apart form Bootstrap(JS/JQuery) there is no other use of JavaScript functionality.  Therefore no data is sent to backend, this limits some of the functionality of the landing page. No monthly subscriptions, newsletter subscription or sign-up is processed. Instead the user gets a Response page to acknowledge the input.</p>
+<p>I will implement the required technologies JavaScript and Backend DB in future to meet all of the Future Goals.</p>
+<br>
+
+
+<div style="text-align: right;">
+
+[back to Table of Contents](#table-of-contents)
+
+</div>
 
 ---
 
@@ -371,6 +510,13 @@ Cormorant is a free display type family developed by Christian Thalmann. The pro
 
 <br>
 
+<div style="text-align: right;">
+
+[back to Table of Contents](#table-of-contents)
+
+</div>
+
+
 ---
 
 ## Testing
@@ -384,10 +530,42 @@ Cormorant is a free display type family developed by Christian Thalmann. The pro
 
 ## Deployment
 
+- Deployment on GitHub:
+  - If your repository is public, you can use GitHub Pages to host your landing page.
+  - Go to your repository on GitHub.
+  - Navigate to the "Settings" tab.
+  - Scroll down to the "GitHub Pages" section.
+  - Choose the branch you want to use for GitHub Pages (usually main or master).
+  - Your landing page will be accessible at <code>https://username.github.io/repository-name</code>
+
+This site is deployed [here](https://taherccg.github.io/TreeZone/index.html):
+
+<code>https://taherccg.github.io/TreeZone/index.html</code>
+
+
+- Local Deployment
+  - In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+<code> git clone https://taherccg.github.io/TreeZone/index.html </code>
+
 ---
 
 ## Future Improvements
 
+- Add JavaScript for more features.
+- Optimise performance.
+- Build donation page.
+- Build more interactive features like animation.
+- Get user feedback and improve to make user friendly and easy to use.
+- Add 404 page.
+- Add payment method for donation to a tree planting charity.
+- Add User account section.
+
+* I am aware that I need to : 
+  - Improve the quality of my commit messages. 
+  - Improve on using github projects to manage tasks and milestones.
+  - Continues learn latest web development trends and technologies.
+  
 ---
 
 ## Credits
@@ -458,6 +636,17 @@ Photo by <a href="https://unsplash.com/@luis_moritz?utm_content=creditCopyText&u
 - [Gimp](https://www.gimp.org/) Used to edit and compress images and to make custom logo.
 - [Adobe Color ](https://color.adobe.com/) was used to create Colour Scheme.
 - [Balsamiq](https://balsamiq.com/) was used to create Wireframe.
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) was used to check the performance.
+- [GoFullPage](https://gofullpage.com/) was used to get full page images.
+- [W3C HTML Validator](https://validator.w3.org/) was used to validate html documents.
+- [Jigsaw W3 CSS Validator](https://jigsaw.w3.org/) was used to validate CSS document.
+- [Peek](https://github.com/phw/peek) was used for animated gif recordings.
+- [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) was continuously used to test multiple screens while developing.
+
+
+### Research Websites
+- [W3C School](https://www.w3schools.com/) to read and learn how to use 
+- 
 
 ---
 
@@ -468,4 +657,10 @@ Photo by <a href="https://unsplash.com/@luis_moritz?utm_content=creditCopyText&u
 - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) for his CSS tutorials.
 - [Online Tutorials](https://www.youtube.com/@OnlineTutorialsYT) for tutorial on CSS Animation.
 
+
+<div style="text-align: right;">
+
+[back to Table of Contents](#table-of-contents)
+
+</div>
 

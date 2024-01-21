@@ -192,17 +192,26 @@ Using Lighthouse to check performance.
 
 - **Home Page**
 
-
+![LightHouse Home](/documentation/images/home-page/lh-home.png)
 
 - **Learn Page**
 
+![LightHouse Learn](/documentation/images/home-page/lh-home.png)
 
 - **Gallery Page**
 
+![LightHouse Gallery](/documentation/images/gallery-page/lh-gallery.png)
 
 - **Contact Page**
 
+![LightHouse Contact](/documentation/images/contact-page/lh-contact.png)
 
 - **Response Page**
 
+![LightHouse Response](/documentation/images/response-page/lh-response.png)
+
+Need to work improving on performance.
+
+
+---
 

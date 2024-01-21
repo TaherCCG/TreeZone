@@ -215,3 +215,47 @@ Need to work improving on performance.
 
 ---
 
+## WAVE Web Accessibility Evaluation Tool
+
+- **Home Page**
+
+![Wave Home](/documentation/images/home-page/wave-home.png)
+
+- **Learn Page**
+
+![Wave Learn](/documentation/images/learn-page/wave-learn.png)
+
+- **Gallery Page**
+
+![Wave Gallery](/documentation/images/gallery-page/wave-gallery.png)
+
+- **Contact Page**
+
+![Wave Contact](/documentation/images/contact-page/wave-contact.png)
+
+- **Response Page**
+
+![Wave Response](/documentation/images/response-page/wave-response.png)
+
+- 1 Error in response.html due to redirect. 
+  ![Wave Response](/documentation/images/response-page/wave-response-error.png)
+  
+--- 
+
+
+## Bugs
+
+### Solved Bugs
+
+- The Call-to-Action jumbotron was overflowing at smaller screen sizes causing horizontal scroll to appear.
+    - _Solution_ : Margin was set to zero changed it to 20px.
+
+- Contact page failed W3C HTML Validator report, found duplicate ID for a forms input.  The main contact form on page and (CTA) modal form had same ID.
+    - _Solution_ : Change the ID on page to something else.
+
+### Unsolved bugs
+
+- Lighthouse performance score need improvements.
+    - _Possible solution_ : optimise images and use of JavaScript.
+
+

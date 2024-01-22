@@ -162,7 +162,13 @@
 
 ![W3C Contact fail](/documentation/images/contact-page/html-w3c-contact-fail.png)
 
-  - Contact Page **PASS** 
+The above errors occurred as there are two forms in the contact.html code. 1st is contact form which is displayed on the page and the 2nd form is in the modal, that is called when clicked on Sign Up in navigation bar.
+
+I have fixed the error shown above by renaming the duplicate ID's of the contact form.<br>
+As shown below contact.html passes W3C HTML Validator now.
+
+
+- Contact Page **PASS** 
 
 ![W3C Contact](/documentation/images/contact-page/html-w3c-contact.png)
 
@@ -241,7 +247,7 @@ Need to work improving on performance.
 
 ![Wave Response](/documentation/images/response-page/wave-response.png)
 
-- 1 Error in response.html due to redirect. 
+- 1 Error in response.html due to redirect. <br>
   ![Wave Response](/documentation/images/response-page/wave-response-error.png)
   
 --- 

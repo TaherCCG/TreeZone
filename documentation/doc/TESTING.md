@@ -126,6 +126,7 @@
 | Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| "Reset Form" button | Click on the "Reset Form" button | The form input fields are cleared | Yes | Yes | - |
 | "Google Map" | Google map is interactive | The user can interact with the map | Yes | Yes | - |
 | **Response page** | | | | | |
 | Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |

@@ -186,6 +186,9 @@ Using W3C CSS Jigsaw validator to test CSS.
 ![W3C Response](/documentation/images/test/css-w3c-style-fail.png)
 
 - Corrected the mistake to pass.
+    - Typo, was missing px at end of 450
+  
+After correcting the typo, CSS Validation passed as shown below.
 
 ![W3C Response](/documentation/images/test/css-w3c-style.png)
 
@@ -247,9 +250,16 @@ Need to work improving on performance.
 ![Wave Response](/documentation/images/response-page/wave-response.png)
 
 - 1 Error in response.html due to redirect. <br>
-  ![Wave Response](/documentation/images/response-page/wave-response-error.png)
-  
+    - ![Wave Response](/documentation/images/response-page/wave-response-error.png)
+
+## WebAIM Contrast Checker
+
+- Contrast test Foreground #F5F5F5 on Background #014040
+
+  ![Wave Response](/documentation/images/test/web-aim-contrast-checker.png)
+
 --- 
+
 
 
 ## Bugs

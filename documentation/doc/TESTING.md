@@ -94,7 +94,7 @@
 | Learn | Click on the "Learn" link | The user is redirected to the learn page | Yes | Yes | - |
 | Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
 | Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
-| Sign Up | Click on the "Sign Up" button | The user is redirected to the registration form (modal)| - |
+| Sign Up | Click on the "Sign Up" button | The user is redirected to the registration form (modal)| yes | yes | - |
 | **Footer Contact**| | | | | |
 | Tree Zone | Click on the "Tree Zone" link | The user is redirected to the main page | Yes | Yes | - |
 | Address| Click on the "Address" link | The user is redirected to the contact page | Yes | Yes | - |
@@ -126,7 +126,6 @@
 | Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
-| "Close" button | Click on the "Close" button | The form closes | No | No | The contact form embedded on the page it cant close- need to replace close button with reset |
 | "Google Map" | Google map is interactive | The user can interact with the map | Yes | Yes | - |
 | **Response page** | | | | | |
 | Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |

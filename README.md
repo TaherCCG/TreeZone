@@ -41,6 +41,7 @@
     - [Mobile](#mobile)
     - [Tablet](#tablet)
     - [Desktop](#desktop)
+- [Development Environment and SDLC](#development-environment-and-sdlc)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Future Improvements](#future-improvements)
@@ -517,6 +518,11 @@ Cormorant is a free display type family developed by Christian Thalmann. The pro
 
 </div>
 
+---
+
+## Development Environment and SDLC
+
+[DEVELOPMENT.md](/documentation/doc/DEVELOPMENT.md)
 
 ---
 

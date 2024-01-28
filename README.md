@@ -567,10 +567,6 @@ This site is deployed [here](https://taherccg.github.io/TreeZone/index.html):
 - Add payment method for donation to a tree planting charity.
 - Add User account section.
 
-* I am aware that I need to : 
-  - Improve the quality of my commit messages. 
-  - Improve on using github projects to manage tasks and milestones.
-  - Continues learn latest web development trends and technologies.
   
 ---
 
@@ -695,6 +691,10 @@ I am aware my commits are not up to standards for good practices.  I have starte
 - build – changes that affect the build system or external dependencies 
 
 - revert – reverts a previous commit 
+
+I am also aware that i need to:
+  - Improve on using github projects to manage tasks and milestones.
+  - Continues learn latest web development trends and technologies.
 
 
 

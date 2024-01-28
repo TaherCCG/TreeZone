@@ -54,6 +54,7 @@
   - [Tools](#tools)
   - [Research Websites](#research-websites)
 - [Acknowledgments](#acknowledgments)
+  - [Mistakes and personal goals for improvements](#mistakes-and-personal-goals-for-improvements)
 
 
 
@@ -666,6 +667,35 @@ Photo by <a href="https://unsplash.com/@luis_moritz?utm_content=creditCopyText&u
 - [Code Institute](https://codeinstitute.net) Slack community and members for their help and support.
 - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) for his CSS tutorials.
 - [Online Tutorials](https://www.youtube.com/@OnlineTutorialsYT) for tutorial on CSS Animation.
+
+
+ 
+### Mistakes and personal goals for improvements 
+
+I am aware my commits are not up to standards for good practices.  I have started to use commit types like shown below to improve my commit messages: 
+
+- feat – a new feature is introduced with the changes 
+
+- fix – a bug fix has occurred 
+
+- chore – changes that do not relate to a fix or feature and do not modify source or test files (for example updating dependencies) 
+
+- refactor – refactored code that neither fixes a bug nor adds a feature 
+
+- docs – updates to documentation such as the README or other markdown files 
+
+- style – changes that do not affect the meaning of the code, related to code formatting such as white-space, missing semi-colons, and so on. 
+
+- test – including new or correcting previous tests 
+
+- perf – performance improvements 
+
+- ci – continuous integration related 
+
+- build – changes that affect the build system or external dependencies 
+
+- revert – reverts a previous commit 
+
 
 
 <div style="text-align: right;">

@@ -48,5 +48,10 @@ function formtype() {
 function displayMessage() {
     formtype();
     greet();
-    mainMessage=(greeting + ", " + message);
+    console.log(greeting + ", " + message);
 }
+
+
+// Still working on JS code to display the message on the response page
+// I will be using the DOM to display the message
+// Learning more about the DOM and how to use it to display the message

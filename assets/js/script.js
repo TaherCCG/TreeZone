@@ -1,3 +1,10 @@
+// JavaScript file to display a message on the response page is still in progress and not live on the website yet
+// Still working on JS code to display the message on the response page
+// I will be using the DOM to display the message
+// Learning more about the DOM and how to use it to display the message
+// The code below is a work in progress and not live on the website yet
+
+
 let message;
 let username;
 let email;
@@ -51,7 +58,3 @@ function displayMessage() {
     console.log(greeting + ", " + message);
 }
 
-
-// Still working on JS code to display the message on the response page
-// I will be using the DOM to display the message
-// Learning more about the DOM and how to use it to display the message
